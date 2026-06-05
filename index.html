@@ -1,0 +1,1482 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Kolejność Oglądania Filmów Marvel MCU | Przewodnik 2024</title>
+  <meta name="description" content="Kompletny przewodnik po kolejności oglądania filmów Marvel MCU. Dowiedz się o problemie Slodermana, koncepcji multiversum i jak nie zgubić się w świecie Avengers." />
+  <meta name="keywords" content="marvel kolejność oglądania, MCU kolejność, filmy marvel, multiverse, multiversum marvel, sloderman marvel, avengers kolejność, spider-man bez drogi do domu, doktor strange, co-op marvel, saga nieskończoności" />
+  <meta name="author" content="Marvel Watch Guide PL" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://marvel-kolejnosc.pl/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Kolejność Oglądania Filmów Marvel MCU | Przewodnik" />
+  <meta property="og:description" content="Kompletny przewodnik po kolejności oglądania MCU. Problem Slodermana, multiversum i idealna kolejność filmów." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pl_PL" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kolejność Oglądania Filmów Marvel MCU" />
+  <meta name="twitter:description" content="Kompletny przewodnik po MCU – od Człowieka z Żelaza do Avengers: Koniec Gry i dalej." />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Kolejność Oglądania Filmów Marvel MCU",
+    "description": "Kompletny przewodnik po kolejności oglądania filmów Marvel Cinematic Universe",
+    "inLanguage": "pl",
+    "genre": "Entertainment Guide",
+    "about": {
+      "@type": "Thing",
+      "name": "Marvel Cinematic Universe"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --red: #C0152A;
+      --gold: #C9922A;
+      --cream: #F5EDD9;
+      --dark: #0D0B08;
+      --dark2: #1A1510;
+      --dark3: #252018;
+      --text: #E8DFC8;
+      --text-dim: #A09070;
+      --accent: #E8B84B;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--dark);
+      color: var(--text);
+      font-family: 'Crimson Pro', Georgia, serif;
+      font-size: 18px;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    /* NOISE TEXTURE OVERLAY */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 9999;
+      opacity: 0.4;
+    }
+
+    /* HEADER */
+    header {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 4rem 2rem;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 50% 100%, rgba(192,21,42,0.35) 0%, transparent 70%),
+        radial-gradient(ellipse 60% 40% at 20% 20%, rgba(201,146,42,0.12) 0%, transparent 60%),
+        linear-gradient(180deg, #0D0B08 0%, #1A0A0E 50%, #0D0B08 100%);
+    }
+
+    .header-grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(192,21,42,0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(192,21,42,0.06) 1px, transparent 1px);
+      background-size: 60px 60px;
+      mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%);
+    }
+
+    .header-emblem {
+      position: relative;
+      font-size: 5rem;
+      margin-bottom: 1rem;
+      animation: pulse-glow 4s ease-in-out infinite;
+    }
+
+    @keyframes pulse-glow {
+      0%, 100% { text-shadow: 0 0 20px rgba(192,21,42,0.5), 0 0 60px rgba(192,21,42,0.2); }
+      50% { text-shadow: 0 0 40px rgba(192,21,42,0.8), 0 0 100px rgba(192,21,42,0.4); }
+    }
+
+    header h1 {
+      position: relative;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(3rem, 8vw, 7rem);
+      letter-spacing: 0.05em;
+      line-height: 0.95;
+      color: var(--cream);
+      text-shadow: 0 4px 30px rgba(0,0,0,0.8);
+    }
+
+    header h1 span {
+      color: var(--red);
+      display: block;
+    }
+
+    header .subtitle {
+      position: relative;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85rem;
+      letter-spacing: 0.3em;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      margin-top: 1.5rem;
+    }
+
+    .scroll-hint {
+      position: absolute;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text-dim);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      animation: bounce 2s ease-in-out infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateX(-50%) translateY(0); }
+      50% { transform: translateX(-50%) translateY(8px); }
+    }
+
+    /* NAV */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(13,11,8,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(192,21,42,0.3);
+      padding: 0 2rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 0;
+      overflow-x: auto;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    nav ul li a {
+      display: block;
+      padding: 1rem 1.2rem;
+      color: var(--text-dim);
+      text-decoration: none;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.72rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      transition: color 0.2s, border-bottom 0.2s;
+      border-bottom: 2px solid transparent;
+      white-space: nowrap;
+    }
+
+    nav ul li a:hover {
+      color: var(--accent);
+      border-bottom-color: var(--red);
+    }
+
+    /* MAIN */
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+    }
+
+    section {
+      margin-bottom: 6rem;
+    }
+
+    /* SECTION HEADERS */
+    .section-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 0.8rem;
+    }
+
+    h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      letter-spacing: 0.03em;
+      color: var(--cream);
+      line-height: 1;
+      margin-bottom: 1.5rem;
+    }
+
+    h3 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.8rem;
+      color: var(--accent);
+      letter-spacing: 0.05em;
+      margin-bottom: 0.8rem;
+    }
+
+    p { margin-bottom: 1.2rem; color: var(--text); }
+    p:last-child { margin-bottom: 0; }
+
+    /* INTRO BOX */
+    .intro-box {
+      background: linear-gradient(135deg, rgba(192,21,42,0.12) 0%, rgba(201,146,42,0.06) 100%);
+      border: 1px solid rgba(192,21,42,0.3);
+      border-left: 4px solid var(--red);
+      padding: 2rem 2.5rem;
+      border-radius: 2px;
+      margin-bottom: 3rem;
+    }
+
+    /* DIVIDER */
+    .divider {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+    .divider::before, .divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(192,21,42,0.5), transparent);
+    }
+    .divider span {
+      color: var(--red);
+      font-size: 1.2rem;
+    }
+
+    /* PHASE CARDS */
+    .phase-header {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .phase-badge {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 0.9rem;
+      letter-spacing: 0.2em;
+      background: var(--red);
+      color: white;
+      padding: 0.3rem 1rem;
+      border-radius: 2px;
+      white-space: nowrap;
+    }
+
+    .films-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .film-card {
+      background: var(--dark2);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 4px;
+      padding: 1.5rem;
+      position: relative;
+      transition: border-color 0.3s, transform 0.3s;
+      cursor: default;
+    }
+
+    .film-card:hover {
+      border-color: rgba(192,21,42,0.5);
+      transform: translateY(-3px);
+    }
+
+    .film-number {
+      position: absolute;
+      top: -1px;
+      right: 1rem;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 3.5rem;
+      color: rgba(255,255,255,0.04);
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    .film-order {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      color: var(--red);
+      margin-bottom: 0.4rem;
+    }
+
+    .film-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.4rem;
+      color: var(--cream);
+      letter-spacing: 0.03em;
+      margin-bottom: 0.3rem;
+    }
+
+    .film-year {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      margin-bottom: 0.8rem;
+    }
+
+    .film-note {
+      font-size: 0.9rem;
+      color: var(--text-dim);
+      line-height: 1.5;
+      font-style: italic;
+    }
+
+    .film-tag {
+      display: inline-block;
+      margin-top: 0.8rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.62rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      padding: 0.2rem 0.6rem;
+      border-radius: 2px;
+      background: rgba(201,146,42,0.15);
+      color: var(--gold);
+      border: 1px solid rgba(201,146,42,0.3);
+    }
+
+    .film-tag.essential { background: rgba(192,21,42,0.15); color: #ff6b6b; border-color: rgba(192,21,42,0.4); }
+    .film-tag.bonus { background: rgba(60,60,60,0.4); color: var(--text-dim); border-color: rgba(255,255,255,0.1); }
+
+    /* ALERT BOX - Sloderman */
+    .alert-box {
+      background: linear-gradient(135deg, rgba(201,146,42,0.1) 0%, rgba(201,146,42,0.04) 100%);
+      border: 1px solid rgba(201,146,42,0.4);
+      border-left: 4px solid var(--gold);
+      padding: 2.5rem;
+      border-radius: 2px;
+      margin: 2rem 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .alert-box::before {
+      content: '⚠';
+      position: absolute;
+      top: -1rem;
+      right: 1rem;
+      font-size: 8rem;
+      opacity: 0.04;
+      line-height: 1;
+    }
+
+    .alert-box h3 {
+      color: var(--gold);
+    }
+
+    /* MULTIVERSE */
+    .multiverse-visual {
+      position: relative;
+      padding: 3rem;
+      margin: 2rem 0;
+      background: radial-gradient(ellipse 80% 60% at 50% 50%, rgba(100,60,200,0.12) 0%, rgba(13,11,8,0) 70%);
+      border: 1px solid rgba(100,60,200,0.2);
+      border-radius: 4px;
+      text-align: center;
+    }
+
+    .universe-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+
+    .universe-card {
+      background: var(--dark3);
+      border: 1px solid rgba(100,60,200,0.25);
+      padding: 1.5rem;
+      border-radius: 4px;
+      text-align: left;
+      transition: border-color 0.3s;
+    }
+
+    .universe-card:hover { border-color: rgba(100,60,200,0.6); }
+
+    .universe-id {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      color: #9b7fe8;
+      margin-bottom: 0.4rem;
+    }
+
+    .universe-name {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.3rem;
+      color: var(--cream);
+      margin-bottom: 0.5rem;
+    }
+
+    .universe-desc {
+      font-size: 0.9rem;
+      color: var(--text-dim);
+      line-height: 1.5;
+    }
+
+    /* TIPS */
+    .tips-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .tip-card {
+      background: var(--dark2);
+      border: 1px solid rgba(255,255,255,0.06);
+      padding: 1.8rem;
+      border-radius: 4px;
+      position: relative;
+    }
+
+    .tip-icon {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      display: block;
+    }
+
+    .tip-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.3rem;
+      color: var(--cream);
+      letter-spacing: 0.05em;
+      margin-bottom: 0.6rem;
+    }
+
+    .tip-text {
+      font-size: 0.92rem;
+      color: var(--text-dim);
+      line-height: 1.6;
+    }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding: 3rem 2rem;
+      text-align: center;
+      color: var(--text-dim);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+    }
+
+    footer p { color: var(--text-dim); font-size: 0.7rem; }
+
+    /* HIGHLIGHT */
+    .hl { color: var(--accent); font-style: normal; }
+    .hl-red { color: var(--red); }
+
+    /* QUOTE */
+    blockquote {
+      border-left: 3px solid var(--red);
+      margin: 2rem 0;
+      padding: 1rem 2rem;
+      background: rgba(192,21,42,0.06);
+      font-style: italic;
+      font-size: 1.1rem;
+      color: var(--text-dim);
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      .universe-grid { grid-template-columns: 1fr; }
+      nav ul { gap: 0; }
+      .films-grid { grid-template-columns: 1fr; }
+      .tips-grid { grid-template-columns: 1fr; }
+      .alert-box { padding: 1.5rem; }
+    }
+
+    /* FADE IN */
+    .fade-in {
+      opacity: 1;
+      transform: none;
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .fade-in.will-animate {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+    .fade-in.will-animate.visible {
+      opacity: 1;
+      transform: none;
+    }
+
+    /* PHASE SEPARATOR */
+    .phase-block {
+      margin-bottom: 4rem;
+      padding-bottom: 4rem;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+    }
+    .phase-block:last-child { border-bottom: none; }
+
+    /* SCROLL PROGRESS */
+    #progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--red), var(--gold));
+      width: 0%;
+      z-index: 200;
+      transition: width 0.1s;
+    }
+  </style>
+</head>
+<body>
+
+<div id="progress"></div>
+
+<!-- HEADER -->
+<header>
+  <div class="header-grid"></div>
+  <div class="header-emblem">🛡️</div>
+  <h1>Kolejność<br><span>Oglądania</span><br>Marvel MCU</h1>
+  <p class="subtitle">Kompletny przewodnik &nbsp;·&nbsp; Multiverse &nbsp;·&nbsp; Problem Slodermana</p>
+  <div class="scroll-hint">
+    <span>Przewiń w dół</span>
+    <span style="font-size:1.2rem">↓</span>
+  </div>
+</header>
+
+<!-- NAWIGACJA -->
+<nav>
+  <ul>
+    <li><a href="#wstep">Wstęp</a></li>
+    <li><a href="#fazy">Kolejność Filmów</a></li>
+    <li><a href="#sloderman">Problem Slodermana</a></li>
+    <li><a href="#multiverse">Multiversum</a></li>
+    <li><a href="#tips">Wskazówki</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- WSTĘP -->
+  <section id="wstep" class="fade-in">
+    <div class="section-label">// Wprowadzenie</div>
+    <h2>Zanim Zaczniesz Oglądać</h2>
+
+    <div class="intro-box">
+      <p>Marvel Cinematic Universe liczy ponad <span class="hl">30 filmów i dziesiątki seriali</span>. Dla nowego widza to labirynt — nie wiesz, od czego zacząć, co jest ważne, a co można pominąć. Ten przewodnik rozwiązuje ten problem raz na zawsze.</p>
+      <p>Znajdziesz tutaj optymalną kolejność oglądania, wyjaśnienie kontrowersyjnego <span class="hl">„problemu Slodermana"</span> (czyli dlaczego Spider-Man komplikuje całe MCU), oraz zrozumiałe wytłumaczenie koncepcji <span class="hl">Multiversum</span>, bez której od Fazy 4 nie zrozumiesz absolutnie niczego.</p>
+    </div>
+
+    <div class="divider"><span>✦</span></div>
+
+    <div class="tips-grid">
+      <div class="tip-card">
+        <span class="tip-icon">🎬</span>
+        <div class="tip-title">Dwie metody oglądania</div>
+        <p class="tip-text">Możesz oglądać chronologicznie (według czasu akcji) lub w kolejności premier kinowych. Oba podejścia mają sens — ten przewodnik poleca <strong>kolejność premier</strong> jako najlepszą dla emocji i zaskoczeń fabularnych.</p>
+      </div>
+      <div class="tip-card">
+        <span class="tip-icon">⏱️</span>
+        <div class="tip-title">Ile to zajmie?</div>
+        <p class="tip-text">Same filmy to ok. <strong>54 godziny</strong> treści. Jeśli dodasz seriale Disney+, czas wzrasta do ponad 200 godzin. Zacznij od filmów — seriale to rozszerzenia, nie warunek konieczny.</p>
+      </div>
+      <div class="tip-card">
+        <span class="tip-icon">🎯</span>
+        <div class="tip-title">Filmy kluczowe vs. poboczne</div>
+        <p class="tip-text">Nie wszystkie filmy są równie ważne dla głównej fabuły. Oznaczymy każdy film etykietą: <strong>Kluczowy</strong>, <strong>Ważny</strong> lub <strong>Opcjonalny</strong> — żebyś wiedział, czego nie możesz pominąć.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- KOLEJNOŚĆ FILMÓW -->
+  <section id="fazy" class="fade-in">
+    <div class="section-label">// Pełna lista filmów</div>
+    <h2>Kolejność Oglądania MCU</h2>
+    <p>Poniżej znajdziesz filmy ułożone w optymalną kolejność oglądania. Seriale Disney+ zaznaczono osobno — możesz je włączyć między filmami lub obejrzeć później.</p>
+
+    <!-- FAZA 1 -->
+    <div class="phase-block">
+      <div class="phase-header">
+        <div class="phase-badge">Faza 1</div>
+        <h3 style="margin:0">Narodziny Avengers (2008–2012)</h3>
+      </div>
+      <p style="margin-bottom:1.5rem; color:var(--text-dim)">Fundament całego MCU. Tu poznajemy Iron Mana, Thora, Hulka i Kapitana Amerykę. Bez tej fazy reszta nie ma sensu — obejrzyj wszystkie filmy.</p>
+      <div class="films-grid">
+        <div class="film-card">
+          <div class="film-number">1</div>
+          <div class="film-order">Film #01</div>
+          <div class="film-title">Iron Man</div>
+          <div class="film-year">2008</div>
+          <div class="film-note">Punkt startowy. Tony Stark zakłada zbroję i zmienia świat MCU na zawsze.</div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">2</div>
+          <div class="film-order">Film #02</div>
+          <div class="film-title">Niesamowity Hulk</div>
+          <div class="film-year">2008</div>
+          <div class="film-note">Jedyny film MCU z Edwardem Nortonem. Można pominąć, ale warto zobaczyć dla kontekstu.</div>
+          <span class="film-tag bonus">Opcjonalny</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">3</div>
+          <div class="film-order">Film #03</div>
+          <div class="film-title">Iron Man 2</div>
+          <div class="film-year">2010</div>
+          <div class="film-note">Wprowadza Czarną Wdowę i Rhodeyego w zbroi War Machine.</div>
+          <span class="film-tag">Ważny</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">4</div>
+          <div class="film-order">Film #04</div>
+          <div class="film-title">Thor</div>
+          <div class="film-year">2011</div>
+          <div class="film-note">Otwiera kosmiczny wymiar MCU. Loki jako antagonista — jeden z najlepszych złoczyńców serii.</div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">5</div>
+          <div class="film-order">Film #05</div>
+          <div class="film-title">Kapitan Ameryka: Pierwsze Starcie</div>
+          <div class="film-year">2011</div>
+          <div class="film-note">Lata 40., WWII, narodziny supersoldiera. Wprowadza Tesserakt — kluczowy artefakt sagi.</div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">6</div>
+          <div class="film-order">Film #06</div>
+          <div class="film-title">Avengers</div>
+          <div class="film-year">2012</div>
+          <div class="film-note">Punkt kulminacyjny Fazy 1. Drużyna po raz pierwszy razem. Loki atakuje Nowy Jork.</div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAZA 2 -->
+    <div class="phase-block">
+      <div class="phase-header">
+        <div class="phase-badge">Faza 2</div>
+        <h3 style="margin:0">Rozszerzenie Świata (2013–2015)</h3>
+      </div>
+      <p style="margin-bottom:1.5rem; color:var(--text-dim)">MCU wychodzi w kosmos, wprowadza Kamienie Nieskończoności jako motyw przewodni. Strażnicy Galaktyki to ogromna niespodzianka.</p>
+      <div class="films-grid">
+        <div class="film-card">
+          <div class="film-number">7</div>
+          <div class="film-order">Film #07</div>
+          <div class="film-title">Iron Man 3</div>
+          <div class="film-year">2013</div>
+          <div class="film-note">Tony mierzy się z traumą po Nowym Jorku. Kontrowersyjny zwrot z Mandarinem.</div>
+          <span class="film-tag">Ważny</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">8</div>
+          <div class="film-order">Film #08</div>
+          <div class="film-title">Thor: Mroczny Świat</div>
+          <div class="film-year">2013</div>
+          <div class="film-note">Wprowadza Eter (Kamień Rzeczywistości). Fabularnie słabszy, ale ważny dla ciągłości.</div>
+          <span class="film-tag">Ważny</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">9</div>
+          <div class="film-order">Film #09</div>
+          <div class="film-title">Kapitan Ameryka: Żołnierz Zimowy</div>
+          <div class="film-year">2014</div>
+          <div class="film-note">Jeden z najlepszych filmów MCU. Thriller polityczny, upadek S.H.I.E.L.D., Bucky.</div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">10</div>
+          <div class="film-order">Film #10</div>
+          <div class="film-title">Strażnicy Galaktyki</div>
+          <div class="film-year">2014</div>
+          <div class="film-note">Komediowy zwrot kosmiczny. Przetwarza ducha całego MCU — nieobowiązkowe, ale genialne.</div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">11</div>
+          <div class="film-order">Film #11</div>
+          <div class="film-title">Avengers: Czas Ultrona</div>
+          <div class="film-year">2015</div>
+          <div class="film-note">Wizja, Scarlet Witch, Kamień Umysłu w czole Visiona. Przygotowanie pod wojnę domową.</div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">12</div>
+          <div class="film-order">Film #12</div>
+          <div class="film-title">Ant-Man</div>
+          <div class="film-year">2015</div>
+          <div class="film-note">Lekki, komediowy film o kradzieży i podziale na cząstki. Ważny dla Endgame.</div>
+          <span class="film-tag">Ważny</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAZA 3 -->
+    <div class="phase-block">
+      <div class="phase-header">
+        <div class="phase-badge">Faza 3</div>
+        <h3 style="margin:0">Saga Nieskończoności (2016–2019)</h3>
+      </div>
+      <p style="margin-bottom:1.5rem; color:var(--text-dim)">Kulminacja wszystkiego. Tu świat MCU pęka na dwoje, Thanos zbiera Kamienie, i dochodzi do największych momentów w historii kina superbohaterskiego.</p>
+      <div class="films-grid">
+        <div class="film-card">
+          <div class="film-number">13</div>
+          <div class="film-order">Film #13</div>
+          <div class="film-title">Kapitan Ameryka: Wojna Bohaterów</div>
+          <div class="film-year">2016</div>
+          <div class="film-note">Avengers się dzielą. <em>Pierwsze pojawienie Spider-Mana (MCU)</em> — kluczowe dla problemu Slodermana!</div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">14</div>
+          <div class="film-order">Film #14</div>
+          <div class="film-title">Doktor Strange</div>
+          <div class="film-year">2016</div>
+          <div class="film-note">Wprowadza magię i Kamień Czasu. Fundamentalny dla zrozumienia Multiversum!</div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">15</div>
+          <div class="film-order">Film #15</div>
+          <div class="film-title">Strażnicy Galaktyki vol. 2</div>
+          <div class="film-year">2017</div>
+          <div class="film-note">Ego, ojciec Star-Lorda. Emocjonalnie silny sequel.</div>
+          <span class="film-tag">Ważny</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">16</div>
+          <div class="film-order">Film #16</div>
+          <div class="film-title">Spider-Man: Homecoming</div>
+          <div class="film-year">2017</div>
+          <div class="film-note">Peter Parker jako nastolatek mentorowany przez Starka. <em>Patrz: Problem Slodermana!</em></div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">17</div>
+          <div class="film-order">Film #17</div>
+          <div class="film-title">Thor: Ragnarok</div>
+          <div class="film-year">2017</div>
+          <div class="film-note">Rewolucja stylistyczna. Komedię i Hulka łączy Taika Waititi w arcydzieło humoru.</div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">18</div>
+          <div class="film-order">Film #18</div>
+          <div class="film-title">Czarna Pantera</div>
+          <div class="film-year">2018</div>
+          <div class="film-note">Wakanda. T'Challa vs Killmonger. Kulturowo przełomowy film MCU.</div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">19</div>
+          <div class="film-order">Film #19</div>
+          <div class="film-title">Avengers: Wojna bez Granic</div>
+          <div class="film-year">2018</div>
+          <div class="film-note">Thanos zbiera wszystkie Kamienie. Jeden z najbardziej szokujących zakończeń w historii kina.</div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">20</div>
+          <div class="film-order">Film #20</div>
+          <div class="film-title">Ant-Man i Osa</div>
+          <div class="film-year">2018</div>
+          <div class="film-note">Scena po napisach łączy Wojnę bez Granic z Endgame. Królestwo Kwantowe kluczowe dla fabuły!</div>
+          <span class="film-tag">Ważny</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">21</div>
+          <div class="film-order">Film #21</div>
+          <div class="film-title">Kapitan Marvel</div>
+          <div class="film-year">2019</div>
+          <div class="film-note">Lata 90., Nick Fury, Kree vs Skrullowie. Warto obejrzeć przed Endgame.</div>
+          <span class="film-tag">Ważny</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">22</div>
+          <div class="film-order">Film #22</div>
+          <div class="film-title">Avengers: Koniec Gry</div>
+          <div class="film-year">2019</div>
+          <div class="film-note">Finał Sagi Nieskończoności. Podróż w czasie. Przeszło 3 godziny emocji — największy film MCU.</div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">23</div>
+          <div class="film-order">Film #23</div>
+          <div class="film-title">Spider-Man: Daleko od Domu</div>
+          <div class="film-year">2019</div>
+          <div class="film-note">Epilog po Endgame. Mysterio, Multiverse (fałszywy!) i ogromny zwrot na końcu. <em>Patrz: Sloderman!</em></div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAZA 4 -->
+    <div class="phase-block">
+      <div class="phase-header">
+        <div class="phase-badge">Faza 4</div>
+        <h3 style="margin:0">Era Multiversum (2021–2022)</h3>
+      </div>
+      <p style="margin-bottom:1.5rem; color:var(--text-dim)">Świat po "Przyciśnięciu" zmienia się diametralnie. Multiversum staje się centralnym tematem. Seriale Disney+ są tutaj bardziej zintegrowane fabularnie.</p>
+      <div class="films-grid">
+        <div class="film-card">
+          <div class="film-number">24</div>
+          <div class="film-order">Film #24</div>
+          <div class="film-title">Czarna Wdowa</div>
+          <div class="film-year">2021</div>
+          <div class="film-note">Rozgrywa się przed Wojną Domową. Epilog Natashy. Yelena Belova jako nowy charakter.</div>
+          <span class="film-tag">Ważny</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">25</div>
+          <div class="film-order">Film #25</div>
+          <div class="film-title">Shang-Chi i Legenda Dziesięciu Pierścieni</div>
+          <div class="film-year">2021</div>
+          <div class="film-note">Nowy bohater, kineska mitologia, porywająca akcja. Wymiar Ta-Lo ważny dla kosmologii MCU.</div>
+          <span class="film-tag">Ważny</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">26</div>
+          <div class="film-order">Film #26</div>
+          <div class="film-title">Eternals</div>
+          <div class="film-year">2021</div>
+          <div class="film-note">Kontrowersyjny, wolny film o pradawnych strażnikach. Ważny dla kosmologii, ale fabularnie wolny.</div>
+          <span class="film-tag bonus">Opcjonalny</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">27</div>
+          <div class="film-order">Film #27</div>
+          <div class="film-title">Spider-Man: Bez Drogi do Domu</div>
+          <div class="film-year">2021</div>
+          <div class="film-note"><em>Centralny punkt problemu Slodermana.</em> Multiversum wybucha. Trzech Spider-Manów. Absolutny must-see.</div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">28</div>
+          <div class="film-order">Film #28</div>
+          <div class="film-title">Doktor Strange w Multiverse of Madness</div>
+          <div class="film-year">2022</div>
+          <div class="film-note">Sam Raimi reżyseruje horror-MCU. <em>Wymaga obejrzenia serialu WandaVision!</em></div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">29</div>
+          <div class="film-order">Film #29</div>
+          <div class="film-title">Thor: Miłość i Grom</div>
+          <div class="film-year">2022</div>
+          <div class="film-note">Gorr, Jane Foster jako Mighty Thor, Eternity. Komedyjna stylistyka Taiki.</div>
+          <span class="film-tag">Ważny</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">30</div>
+          <div class="film-order">Film #30</div>
+          <div class="film-title">Czarna Pantera: Wakanda na Zawsze</div>
+          <div class="film-year">2022</div>
+          <div class="film-note">Żałoba po Chadwicku Bosemanie, Namor i Talokan. Emocjonalnie poruszający.</div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAZA 5 -->
+    <div class="phase-block">
+      <div class="phase-header">
+        <div class="phase-badge">Faza 5</div>
+        <h3 style="margin:0">Saga Dynastii (2023–2025)</h3>
+      </div>
+      <p style="margin-bottom:1.5rem; color:var(--text-dim)">Kang Zdobywca jako nowy wielki antagonista. Inkantacja Nowej Ery MCU po Thanosie.</p>
+      <div class="films-grid">
+        <div class="film-card">
+          <div class="film-number">31</div>
+          <div class="film-order">Film #31</div>
+          <div class="film-title">Ant-Man i Osa: Kwantomania</div>
+          <div class="film-year">2023</div>
+          <div class="film-note">Królestwo Kwantowe, Kang Zdobywca jako nowy Thanos. Start Sagi Dynastii.</div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">32</div>
+          <div class="film-order">Film #32</div>
+          <div class="film-title">Strażnicy Galaktyki vol. 3</div>
+          <div class="film-year">2023</div>
+          <div class="film-note">Emocjonalne zamknięcie drużyny. Historia Rocketa. Jeden z najlepszych filmów Fazy 5.</div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">33</div>
+          <div class="film-order">Film #33</div>
+          <div class="film-title">Kapitan Marvel 2 (The Marvels)</div>
+          <div class="film-year">2023</div>
+          <div class="film-note">Carol, Kamala i Monica zamieniają się miejscami. <em>Wymaga seriali Ms. Marvel i WandaVision.</em></div>
+          <span class="film-tag">Ważny</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">34</div>
+          <div class="film-order">Film #34</div>
+          <div class="film-title">Deadpool & Wolverine</div>
+          <div class="film-year">2024</div>
+          <div class="film-note">Oficjalne połączenie z Fox Marvel. Multiversum, nostalgia, brutalny humor. Przełomowy moment dla MCU.</div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+        <div class="film-card">
+          <div class="film-number">35</div>
+          <div class="film-order">Film #35</div>
+          <div class="film-title">Captain America: Nowy Wspaniały Świat</div>
+          <div class="film-year">2025</div>
+          <div class="film-note">Sam Wilson jako nowy Kapitan Ameryka. Powrót Red Hulka, Harrison Ford jako prezydent Ross.</div>
+          <span class="film-tag essential">Kluczowy</span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- PROBLEM SLODERMANA -->
+  <section id="sloderman" class="fade-in">
+    <div class="section-label">// Wyjaśnienie kontrowersji</div>
+    <h2>Problem Slodermana</h2>
+
+    <div class="alert-box">
+      <h3>Czym Jest „Problem Slodermana"?</h3>
+      <p>„Sloderman" (od <em>Spider-Man</em> + <em>slow motion drama</em> — termin używany przez fanów) to nieformalna nazwa na fundamentalny problem prawno-narracyjny MCU związany z postacią Spider-Mana, który przez lata komplikował ciągłość całego uniwersum.</p>
+    </div>
+
+    <div class="divider"><span>🕷️</span></div>
+
+    <h3>Tło: Dwa Studia, Jeden Spider-Man</h3>
+    <p>Problem zaczął się długo przed MCU. Sony Pictures przez lata posiadało prawa do filmowego Spider-Mana. Wypuścili trylogię Sama Raimiego (Tobey Maguire, 2002–2007) oraz duology z Andrewem Garfieldem (2012–2014). Te filmy były <em>osobnymi wszechświatami</em> — bez żadnego połączenia z MCU.</p>
+
+    <p>W 2015 roku Sony i Marvel Studios zawarły przełomowe porozumienie: <span class="hl">Spider-Man wejdzie do MCU</span>, ale Sony zachowuje prawa do solowych filmów i zyski z nich. Marvel dostaje Spider-Mana do Avengers. To historyczny deal — ale też źródło chaosu narracyjnego.</p>
+
+    <blockquote>
+      „Spider-Man to jedyna postać w MCU, którą Marvel Studios nie kontroluje w pełni. To jak wspólne dziecko w skomplikowanym rozwodzie."
+      <br>— analitycy Hollywood Reporter
+    </blockquote>
+
+    <h3>Na Czym Polega Problem?</h3>
+    <p>Peter Parker (Tom Holland) pojawił się w MCU w <em>Wojnie Domowej</em> (2016), potem miał dwa solowe filmy (Homecoming, Far From Home) połączone fabularnie z głównym MCU. Ale Sony w każdej chwili może zabrać prawa z MCU — lub wymagać zmiany kierunku.</p>
+
+    <p>I tu zaczyna się prawdziwy problem: <span class="hl-red">Spider-Man: Bez Drogi do Domu (2021)</span> posunął się o krok dalej niż ktokolwiek się spodziewał. Film przywołał Spider-Manów <em>z innych wszechświatów</em> — czyli Tobey'a Maguire'a i Andrew Garfielda. To <strong>oficjalnie połączyło wszystkie poprzednie wersje Spider-Mana w jedno Multiversum</strong>.</p>
+
+    <div class="alert-box" style="border-left-color: var(--red); background: linear-gradient(135deg, rgba(192,21,42,0.1) 0%, rgba(192,21,42,0.04) 100%); border-color: rgba(192,21,42,0.4);">
+      <h3 style="color: #ff6b6b;">Trzy Konsekwencje Problemu Slodermana</h3>
+      <p><strong>1. Amnezja świata:</strong> Pod koniec Bez Drogi do Domu czar Doktora Strange sprawia, że <em>cały świat zapomina, kim jest Spider-Man</em>. Peter Parker jest teraz anonimowy — nie może wrócić do Avengers, nie ma MJ, nie ma Neda. Problem? To ogranicza możliwości Sony i Marvel Studio jednocześnie.</p>
+      <p style="margin-top:1rem"><strong>2. Problem ciągłości:</strong> Jeśli Sony wyprodukuje solowy film Spider-Mana bez zgody Marvel Studios, będzie on w konflikcie z MCU. Morbius (2022) i Kraven (2024) udowodniły, że Sony próbuje budować własne „Spider-Verse" — równoległe do MCU, co sprawia, że widz nie wie, co jest kanonem.</p>
+      <p style="margin-top:1rem"><strong>3. Kwestia powrotu:</strong> Jak Piotr wróci do MCU? Nie ma tożsamości, nie ma kontaktów. Marvel musi wymyślić, jak przywrócić go do Avengers — a każde rozwiązanie będzie narracyjnie skomplikowane lub wymagać Multiversum.</p>
+    </div>
+
+    <h3>Sony vs. Marvel: Harmonogram Sporu</h3>
+    <p>W 2019 roku doszło do publicznej kłótni — Sony i Disney (właściciel Marvel) przez kilka tygodni <em>ogłosiły rozstanie</em>. Fani byli w szoku. Ostatecznie porozumieli się ponownie — ale sprawa pokazała, jak kruche jest to partnerstwo.</p>
+    <p>Bez Drogi do Domu zarobił ponad <span class="hl">1,9 miliarda dolarów</span> — co dało Sony ogromną siłę przetargową. Sony wie, że Spider-Man z MCU to złoty interes. Ale warunki współpracy wciąż pozostają tajemnicą.</p>
+
+    <h3>Co To Znaczy dla Ciebie jako Widza?</h3>
+    <p>Jeśli oglądasz wyłącznie filmy MCU Marvela i pominąłeś filmy Sony (Morbius, Venom, Kraven) — to <span class="hl">dobra decyzja</span>. Te filmy nie są kanonem MCU, mimo że Sony sugeruje jakieś powiązania. Skupiaj się na filmach wymienionych w naszej liście — i nie przejmuj się „filmami Spider-Verse Sony" jako częścią MCU.</p>
+  </section>
+
+  <!-- MULTIVERSUM -->
+  <section id="multiverse" class="fade-in">
+    <div class="section-label">// Koncepcja kluczowa dla Fazy 4, 5 i 6</div>
+    <h2>Multiversum — Wszystko, co Musisz Wiedzieć</h2>
+
+    <p>Od Fazy 4 słowo „multiversum" pojawia się w co trzecim filmie MCU. Jeśli nie rozumiesz tej koncepcji, stracisz połowę wątków fabularnych. Wyjaśniamy ją od podstaw.</p>
+
+    <div class="multiverse-visual">
+      <p style="font-family:'JetBrains Mono',monospace; font-size:0.8rem; letter-spacing:0.3em; color:#9b7fe8; margin-bottom:1rem;">SAKRA MULTIVERSUM</p>
+      <h3 style="font-size:2.5rem; color:var(--cream); margin-bottom:0.5rem;">Nieskończone Wszechświaty</h3>
+      <p style="color:var(--text-dim); max-width:600px; margin:0 auto">Wyobraź sobie drzewo. Pień to Oś Czasu — jedna „prawdziwa" historia. Każda decyzja, która mogła pójść inaczej, tworzy nową gałąź: osobny wszechświat, gdzie życie potoczyło się inaczej.</p>
+    </div>
+
+    <h3>Skąd Wzięło Się Multiversum w MCU?</h3>
+    <p>W Endgame (2019) Avengers podróżowali w czasie, by zebrać Kamienie Nieskończoności z przeszłości. To <em>przypadkowo stworzyło liczne rozgałęzienia osi czasu</em>. Dodatkowo Loki w swoim serialu (2021) otworzył multiversum przez „zamrożenie" TVA — organizacji, która kontrolowała jedną słuszną oś czasu.</p>
+    <p>Kang Zdobywca — nowy wielki villain MCU — to istota z innego wszechświata, która rozumie multiversum i chce je kontrolować. <span class="hl">Walka z nim to walka o strukturę samej rzeczywistości.</span></p>
+
+    <div class="universe-grid">
+      <div class="universe-card">
+        <div class="universe-id">Wszechświat 616</div>
+        <div class="universe-name">MCU Główne</div>
+        <p class="universe-desc">Główna oś czasu MCU. Tu mieszkają Tony Stark, Thor, i większość Avengers. Wszystkie filmy z list powyżej.</p>
+      </div>
+      <div class="universe-card">
+        <div class="universe-id">Wszechświat 838</div>
+        <div class="universe-name">Illuminati MCU</div>
+        <p class="universe-desc">Alternatywny wszechświat z Multiverse of Madness — gdzie istnieje Rada Illuminati złożona z superbohaterów.</p>
+      </div>
+      <div class="universe-card">
+        <div class="universe-id">Wszechświat Raimi</div>
+        <div class="universe-name">Tobey Maguire</div>
+        <p class="universe-desc">Wszechświat trylogii Sama Raimiego. Spider-Man Tobey'a Maguire'a pochodzi stąd — pojawia się w Bez Drogi do Domu.</p>
+      </div>
+      <div class="universe-card">
+        <div class="universe-id">Wszechświat Webb</div>
+        <div class="universe-name">Andrew Garfield</div>
+        <p class="universe-desc">Wszechświat filmów Amazing Spider-Man. Garfield powraca w Bez Drogi do Domu i jest emocjonalnym centrum tej historii.</p>
+      </div>
+      <div class="universe-card">
+        <div class="universe-id">TVA / Sfera Czasu</div>
+        <div class="universe-name">Przeplatane Osi Czasu</div>
+        <p class="universe-desc">Byt kontrolujący wszystkie osie czasu. Loki go odkrył. Kang go zniszczył. Multiversum wybuchło.</p>
+      </div>
+      <div class="universe-card">
+        <div class="universe-id">Co-616 / Dreamscape</div>
+        <div class="universe-name">Dreamwalk Wandy</div>
+        <p class="universe-desc">Wanda Maximoff posiadała zdolność „dreamwalkingu" — wchodzenia w ciała swojej alternatywnej wersji w innych wszechświatach.</p>
+      </div>
+    </div>
+
+    <h3>Dlaczego Multiversum Jest Ważne?</h3>
+    <p>Multiversum pozwala Marvel Studios na kilka rewolucyjnych rzeczy naraz:</p>
+    <p><span class="hl">Po pierwsze</span> — sprowadzenie starych bohaterów bez naruszania ciągłości (Tobey, Andrew, Wolverine Hugha Jackmana w Deadpool & Wolverine).</p>
+    <p><span class="hl">Po drugie</span> — wymiana aktorów bez „restartu". Jeśli aktor rezygnuje z roli, MCU może wprowadzić wersję z innego wszechświata.</p>
+    <p><span class="hl">Po trzecie</span> — budowanie nowego antagonisty (Kang) jako zagrożenia dla <em>całej struktury istnienia</em>, nie tylko jednego świata — co czyni stawkę wyższą niż Thanos.</p>
+
+    <blockquote>
+      „Thanos chciał zniszczyć połowę życia we wszechświecie. Kang chce kontrolować wszystkie wszechświaty, jakie istniały, istnieją i będą istnieć."
+    </blockquote>
+
+    <h3>Kluczowe Filmy i Seriale dla Multiversum</h3>
+    <p>Jeśli chcesz rozumieć wątek multiversum od podstaw, obejrzyj w tej kolejności: <span class="hl">Doktor Strange (2016)</span> → <span class="hl">serial Loki S1 (2021)</span> → <span class="hl">Spider-Man: Bez Drogi do Domu (2021)</span> → <span class="hl">Doktor Strange w Multiverse of Madness (2022)</span> → <span class="hl">serial Loki S2 (2023)</span> → <span class="hl">Deadpool & Wolverine (2024)</span>.</p>
+  </section>
+
+  <!-- WSKAZÓWKI -->
+  <section id="tips" class="fade-in">
+    <div class="section-label">// Praktyczne rady</div>
+    <h2>Wskazówki dla Widza</h2>
+
+    <div class="tips-grid">
+      <div class="tip-card">
+        <span class="tip-icon">📺</span>
+        <div class="tip-title">Seriale Disney+</div>
+        <p class="tip-text">WandaVision, Loki, Hawkeye, Ms. Marvel i Falcon i Zimowy Żołnierz są ważne dla Fazy 4 i 5. Reszta seriali to świetne rozszerzenia, ale nieobowiązkowe dla zrozumienia filmów.</p>
+      </div>
+      <div class="tip-card">
+        <span class="tip-icon">🎬</span>
+        <div class="tip-title">Sceny po napisach</div>
+        <p class="tip-text">ZAWSZE zostań na sceny po napisach! MCU słynie z tzw. "post-credits scenes", które zapowiadają kolejne filmy. Niektóre są kluczowe dla fabuły — np. w Ant-Man i Osie.</p>
+      </div>
+      <div class="tip-card">
+        <span class="tip-icon">🕹️</span>
+        <div class="tip-title">Aplikacja Disney+</div>
+        <p class="tip-text">Wszystkie filmy MCU (poza Spider-Man Sony) i seriale dostępne są na Disney+. Subskrypcja to najwygodniejszy sposób oglądania całego MCU w jednym miejscu.</p>
+      </div>
+      <div class="tip-card">
+        <span class="tip-icon">⚡</span>
+        <div class="tip-title">Nie pomijaj Loki</div>
+        <p class="tip-text">Serial Loki (2021) to najtrudniejszy w odbiorze serial MCU — ale absolutnie kluczowy dla zrozumienia Multiversum i Kanga. Bez niego Ant-Man: Kwantomania i przyszłość MCU nie mają sensu.</p>
+      </div>
+      <div class="tip-card">
+        <span class="tip-icon">🦋</span>
+        <div class="tip-title">Problem Motyla</div>
+        <p class="tip-text">W MCU podróże w czasie działają inaczej niż w większości filmów — nie możesz zmienić własnej przeszłości, ale możesz stworzyć nową oś czasu. Pamiętaj o tym śledząc Endgame i Lokiego.</p>
+      </div>
+      <div class="tip-card">
+        <span class="tip-icon">🗺️</span>
+        <div class="tip-title">Nie zgub się w detalach</div>
+        <p class="tip-text">MCU jest pełne easter eggów i odniesień do komiksów. Nie musisz ich wszystkich rozumieć, żeby cieszyć się filmami. Postać i emocje są ważniejsze niż znajomość każdego numeru komiksu.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>Marvel Watch Guide PL &nbsp;·&nbsp; Przewodnik nieoficjalny, tworzony przez fanów</p>
+  <p style="margin-top:0.5rem; font-size:0.65rem; opacity:0.5">Marvel, Avengers, Spider-Man i wszystkie powiązane nazwy są znakami towarowymi Marvel Studios / Disney. Ten serwis nie jest afiliowany z Marvel ani Disney.</p>
+</footer>
+
+<script>
+  // SCROLL PROGRESS BAR
+  window.addEventListener('scroll', () => {
+    const scrolled = window.scrollY;
+    const max = document.body.scrollHeight - window.innerHeight;
+    document.getElementById('progress').style.width = (scrolled / max * 100) + '%';
+  });
+
+  // FADE IN ON SCROLL — dodaj animację dopiero po załadowaniu strony
+  const fadeEls = document.querySelectorAll('.fade-in');
+  fadeEls.forEach(el => el.classList.add('will-animate'));
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.05, rootMargin: '0px 0px -30px 0px' });
+
+  fadeEls.forEach(el => observer.observe(el));
+
+  // STAGGERED FILM CARDS
+  const cardObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const cards = entry.target.querySelectorAll('.film-card');
+        cards.forEach((card, i) => {
+          setTimeout(() => {
+            card.style.opacity = '1';
+            card.style.transform = 'translateY(0)';
+          }, i * 80);
+        });
+        cardObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.05 });
+
+  document.querySelectorAll('.films-grid').forEach(grid => {
+    grid.querySelectorAll('.film-card').forEach(card => {
+      card.style.opacity = '0';
+      card.style.transform = 'translateY(20px)';
+      card.style.transition = 'opacity 0.5s ease, transform 0.5s ease, border-color 0.3s, box-shadow 0.3s';
+    });
+    cardObserver.observe(grid);
+  });
+</script>
+
+<!-- FLOATING AFFILIATE SIDEBAR -->
+<div id="aff-panel" class="aff-panel">
+  <button class="aff-toggle" id="aff-toggle" title="Oferty partnerów">
+    <span class="aff-toggle-icon">🎬</span>
+    <span class="aff-toggle-label">Oglądaj MCU</span>
+  </button>
+
+  <div class="aff-content" id="aff-content">
+    <div class="aff-header">
+      <span class="aff-header-label">// Polecane</span>
+      <button class="aff-close" id="aff-close">✕</button>
+    </div>
+
+    <p class="aff-intro">Wszystko czego potrzebujesz do oglądania i kolekcjonowania MCU:</p>
+
+    <!-- Disney+ -->
+    <a href="https://www.disneyplus.com" target="_blank" rel="noopener sponsored" class="aff-card aff-disney">
+      <div class="aff-card-icon">▶</div>
+      <div class="aff-card-body">
+        <div class="aff-card-brand">Disney+</div>
+        <div class="aff-card-title">Cały MCU w jednym miejscu</div>
+        <div class="aff-card-desc">Wszystkie filmy i seriale Marvel Studios — od Iron Mana po najnowsze produkcje.</div>
+        <div class="aff-card-cta">Sprawdź ofertę →</div>
+      </div>
+    </a>
+
+    <!-- Amazon -->
+    <a href="https://www.amazon.pl/s?k=marvel+komiksy+figurki" target="_blank" rel="noopener sponsored" class="aff-card aff-amazon">
+      <div class="aff-card-icon">📦</div>
+      <div class="aff-card-body">
+        <div class="aff-card-brand">Amazon</div>
+        <div class="aff-card-title">Komiksy, figurki & merch</div>
+        <div class="aff-card-desc">Oryginalne komiksy Marvela, figurki Funko POP, koszulki i kolekcjonerskie zestawy.</div>
+        <div class="aff-card-cta">Zobacz produkty →</div>
+      </div>
+    </a>
+
+    <!-- Empik -->
+    <a href="https://www.empik.com/szukaj/produkt?q=marvel" target="_blank" rel="noopener sponsored" class="aff-card aff-empik">
+      <div class="aff-card-icon">📚</div>
+      <div class="aff-card-body">
+        <div class="aff-card-brand">Empik</div>
+        <div class="aff-card-title">Komiksy po polsku</div>
+        <div class="aff-card-desc">Tomy komiksów Marvela w języku polskim — idealne dla początkujących i kolekcjonerów.</div>
+        <div class="aff-card-cta">Przeglądaj →</div>
+      </div>
+    </a>
+
+    <p class="aff-disclaimer">* Linki afiliacyjne. Klikając, wspierasz ten przewodnik bez dodatkowych kosztów dla Ciebie.</p>
+  </div>
+</div>
+
+<style>
+  /* FLOATING AFFILIATE PANEL */
+  .aff-panel {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 500;
+    display: flex;
+    align-items: center;
+    gap: 0;
+  }
+
+  /* TOGGLE TAB */
+  .aff-toggle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    background: var(--red);
+    border: none;
+    cursor: pointer;
+    padding: 1rem 0.6rem;
+    border-radius: 6px 0 0 6px;
+    color: white;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    transition: background 0.2s, padding 0.2s;
+    box-shadow: -4px 0 20px rgba(192,21,42,0.4);
+    min-height: 120px;
+  }
+
+  .aff-toggle:hover { background: #a0101f; }
+
+  .aff-toggle-icon {
+    font-size: 1.3rem;
+    writing-mode: horizontal-tb;
+    margin-bottom: 0.3rem;
+  }
+
+  .aff-toggle-label {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    letter-spacing: 0.2em;
+  }
+
+  /* CONTENT PANEL */
+  .aff-content {
+    width: 300px;
+    background: var(--dark2);
+    border: 1px solid rgba(192,21,42,0.35);
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+    padding: 1.5rem;
+    transform: translateX(100%);
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: -8px 0 40px rgba(0,0,0,0.6);
+  }
+
+  .aff-content.open {
+    transform: translateX(0);
+  }
+
+  /* Scrollbar */
+  .aff-content::-webkit-scrollbar { width: 4px; }
+  .aff-content::-webkit-scrollbar-track { background: transparent; }
+  .aff-content::-webkit-scrollbar-thumb { background: rgba(192,21,42,0.4); border-radius: 2px; }
+
+  .aff-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.8rem;
+  }
+
+  .aff-header-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.3em;
+    color: var(--red);
+    text-transform: uppercase;
+  }
+
+  .aff-close {
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 0.2rem 0.4rem;
+    border-radius: 2px;
+    transition: color 0.2s, background 0.2s;
+  }
+  .aff-close:hover { color: var(--cream); background: rgba(255,255,255,0.08); }
+
+  .aff-intro {
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    margin-bottom: 1.2rem;
+    line-height: 1.5;
+  }
+
+  /* AFFILIATE CARDS */
+  .aff-card {
+    display: flex;
+    gap: 0.8rem;
+    align-items: flex-start;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid rgba(255,255,255,0.06);
+    margin-bottom: 0.8rem;
+    text-decoration: none;
+    transition: border-color 0.2s, transform 0.2s, background 0.2s;
+    background: var(--dark3);
+  }
+
+  .aff-card:hover {
+    transform: translateX(-3px);
+    text-decoration: none;
+  }
+
+  .aff-disney:hover { border-color: rgba(16,133,215,0.6); background: rgba(16,133,215,0.06); }
+  .aff-amazon:hover { border-color: rgba(255,153,0,0.6); background: rgba(255,153,0,0.06); }
+  .aff-empik:hover { border-color: rgba(0,180,100,0.6); background: rgba(0,180,100,0.06); }
+
+  .aff-card-icon {
+    font-size: 1.4rem;
+    flex-shrink: 0;
+    width: 2rem;
+    text-align: center;
+    margin-top: 0.1rem;
+  }
+
+  .aff-card-body { flex: 1; min-width: 0; }
+
+  .aff-card-brand {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.62rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 0.2rem;
+  }
+
+  .aff-disney .aff-card-brand { color: #1085D7; }
+  .aff-amazon .aff-card-brand { color: #FF9900; }
+  .aff-empik .aff-card-brand { color: #00B464; }
+
+  .aff-card-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.05rem;
+    color: var(--cream);
+    letter-spacing: 0.03em;
+    margin-bottom: 0.3rem;
+    line-height: 1.1;
+  }
+
+  .aff-card-desc {
+    font-size: 0.78rem;
+    color: var(--text-dim);
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+  }
+
+  .aff-card-cta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+  }
+
+  .aff-disclaimer {
+    font-size: 0.68rem;
+    color: rgba(160,144,112,0.5);
+    line-height: 1.4;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    font-style: italic;
+  }
+
+  /* MOBILE */
+  @media (max-width: 768px) {
+    .aff-panel {
+      top: auto;
+      bottom: 1rem;
+      transform: none;
+    }
+    .aff-toggle {
+      writing-mode: horizontal-tb;
+      flex-direction: row;
+      border-radius: 6px 0 0 6px;
+      padding: 0.8rem 0.8rem;
+      min-height: auto;
+    }
+    .aff-toggle-label {
+      writing-mode: horizontal-tb;
+      transform: none;
+    }
+    .aff-content {
+      width: calc(100vw - 3.5rem);
+      max-height: 70vh;
+      border-radius: 8px 0 0 8px;
+    }
+  }
+
+  /* Pulse animation on toggle to draw attention */
+  @keyframes aff-pulse {
+    0%, 100% { box-shadow: -4px 0 20px rgba(192,21,42,0.4); }
+    50% { box-shadow: -4px 0 35px rgba(192,21,42,0.75); }
+  }
+
+  .aff-toggle { animation: aff-pulse 3s ease-in-out infinite; }
+  .aff-toggle:hover { animation: none; }
+</style>
+
+<script>
+  // AFFILIATE PANEL TOGGLE
+  const affToggle = document.getElementById('aff-toggle');
+  const affClose = document.getElementById('aff-close');
+  const affContent = document.getElementById('aff-content');
+
+  let isOpen = false;
+
+  function openPanel() {
+    affContent.classList.add('open');
+    isOpen = true;
+  }
+
+  function closePanel() {
+    affContent.classList.remove('open');
+    isOpen = false;
+  }
+
+  affToggle.addEventListener('click', () => {
+    isOpen ? closePanel() : openPanel();
+  });
+
+  affClose.addEventListener('click', (e) => {
+    e.stopPropagation();
+    closePanel();
+  });
+
+  // Auto-open after 8s (once)
+  setTimeout(() => {
+    if (!isOpen) openPanel();
+  }, 8000);
+
+  // Close on outside click
+  document.addEventListener('click', (e) => {
+    const panel = document.getElementById('aff-panel');
+    if (isOpen && !panel.contains(e.target)) closePanel();
+  });
+</script>
+
+</body>
+</html>
